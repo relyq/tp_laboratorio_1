@@ -22,6 +22,7 @@
 #define SALIR 6
 
 int main(void) {
+	setbuf(stdout, NULL);
   // el vuelo comercial mas largo es de 16618km
   // la circumferencia de la tierra es de 40075km
   unsigned int km = 0;
